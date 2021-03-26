@@ -1,0 +1,113 @@
+.nav-link
+{
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    padding-left: 10px;
+    font-weight: bolder;
+    -webkit-text-fill-color: #333;
+}
+.nav-link::after
+{
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: cornflowerblue;
+    transition: width .2s;
+}
+.nav-link:hover::after
+{
+    width:100%;
+    transition: width .2s;
+}
+.contact p
+{
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.contact span
+{
+    color: white;
+}
+.row button
+{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 50px;
+    border-width: 3px;
+    font-weight: bolder;
+    border-color: white;
+    padding: 10px 30px;
+    border-width: 2px;
+    box-shadow: 0px;
+}
+.carousel-inner img
+{
+    width: 100%;
+    height: 15%;
+}
+.card-body h1
+{
+    display:inline;
+    border-bottom: 4px solid cornflowerblue;
+}
+.container h1 span
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200px;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+.container p
+{
+    padding-bottom: 20px;
+}
+.container h1
+{
+    padding-top: 50px;
+}
+#gallery
+{
+    padding-bottom: 50px;
+}
+#about-us
+{
+    padding-top: 20px;
+    
+}
+#our-team h1
+{
+    padding-top: 20px;
+    display: inline;
+    margin-left: 650px;
+    border-bottom:4px solid royalblue;
+}
+#our-team
+{
+    background-color: #f6f6f6;
+}
+#row2
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#row3
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#row4
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
